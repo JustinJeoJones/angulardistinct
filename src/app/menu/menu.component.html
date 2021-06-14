@@ -1,0 +1,4 @@
+<div *ngFor="let i of displayItems()">
+  <p>{{ i.name }}</p>
+  <button (click)="addToCart(i)">Add to cart</button>
+</div>
